@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0552717c-9d8c-47bd-9640-4f4efa2de663/537e2c5e-c750-4d4c-9f7a-e66fe93eb977/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1600px, 100vw);
+    object-fit: cover;
+    width: 100%;
+    height: 44.3rem;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    position: relative;
+}
+
+.main .box {
+    width: 100%;
+    height: 44.3rem;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    position: relative;
+    top: 9px;
+    height: 62px;
+    max-width: 78vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+nav img {
+    width: 156px;
+    top: 10px;
+    color: #E50914;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    color: white;
+    gap: 24px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.separation {
+    position: relative;
+    bottom: 0;
+    height: 8px;
+    background-color: #232323;
+    z-index: 11;
+}
+
+.btn {
+    padding: 6px 26px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.416);
+    color: white;
+    font-size: 14px;
+
+    border: 0.5px solid white;
+}
+
+.btn-red {
+    background-color: #E50914;
+    border: none;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.btn-gt {
+    padding: 1rem 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    width: 20rem;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: 0.5px solid rgba(255, 255, 255, 0.33);
+    line-height: 1.5;
+    padding: 1rem 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.642);
+}
+
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.part {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    max-width: 73vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part .text {
+    color: white;
+}
+
+.part .secimg {
+    position: relative;
+}
+
+.part .secimg img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    position: relative;
+    z-index: 10;
+}
+.part1 .secimg video {
+    position: absolute;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    display: inline-block;
+    right: 74px;
+    top: 81px;
+}
+.overlay  {
+    top: 299px;
+    left: 125px;
+    padding: 1.2rem;
+    position: absolute;
+    z-index: 14;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width:18rem;
+    height: 4rem;
+    border:2px solid #5A5A5A;
+    border-radius: 10px;
+}
+.gif{
+    height: 50px;
+    width: 50px;
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+.part3 video {
+    position: absolute;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    display: inline-block;
+    right: 86px;
+    top: 35px;
+}
+
+.faqbox {
+    cursor: pointer;
+    max-width: 74vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding: 40px;
+}
+
+.faqbox span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.question {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2D2D
+}
+
+.question:hover {
+    background-color: #414141;
+    transition: all 0.5s ease;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+footer {
+    max-width:70vw;
+    margin-left:10vw;
+    padding: 3rem;
+    
+}
+
+footer ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+footer ul li{
+    list-style: none;
+    color:white;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+footer ul li a:link,a:visited{
+    color:white;
+    font-weight: 100;
+}
